@@ -1,0 +1,3 @@
+## An iPhone Client for [Google Maps Data](http://code.google.com/apis/maps/documentation/mapsdata/)
+
+This is my first iPhone app. I threw it together for a project as a quick proof of concept, and quickly realized I needed more than Google Maps Data could offer, and therefore don't have a use for it. I never got around to adding anything other than a simple viewer. There is a known bug, where trying to read a map in your data account that you did not create does return any data from google when accessed through the API. For now it crashes this app, as I never got around to writing a workaround.
