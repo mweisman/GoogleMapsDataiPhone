@@ -139,14 +139,8 @@
 	NSUInteger row = [indexPath row];
 	UITableViewController *nextController = [self.appSections objectAtIndex:row];
 	
-    if (row == 1) {
-        AlertPrompt *promptForUser = [[AlertPrompt alloc] initWithTitle:@"User Name" message:@"Enter User Name" delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"OK"];
-        [promptForUser show];
-        [promptForUser release];
-    } else {
         gMapsDataiPhoneAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
         [delegate.navigationController pushViewController:nextController animated:YES];
-    }
 }
 
 
